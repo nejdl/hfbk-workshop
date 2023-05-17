@@ -1,0 +1,86 @@
+/* GENERAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: 0.3s all ease; */
+  border: var(--borderWidth) solid var(--highlightColor);
+}
+
+::selection {
+  background-color: var(--highlightColor);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: var(--fontFamily);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+p {
+  padding: 0.5rem;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+fieldset {
+  border: none;
+}
+
+/* HIGHLIGHT */
+em {
+  font-style: normal;
+  color: var(--highlightColor);
+}
+
+input {
+  accent-color: var(--highlightColor);
+}
+input,
+label {
+  cursor: pointer;
+}
+
+label:hover {
+  accent-color: var(--highlightColor);
+}
+
+/* LINKS */
+a {
+  color: var(--highlightColor);
+}
+
+em a {
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+/* BACKGROUND IMAGE */
+#background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  /* filter: hue-rotate(85deg); */
+  /* filter: hue-rotate(210deg); */
+  /* filter: hue-rotate(340deg); */
+}
+
+#background-image img {
+  width: auto;
+  height: 100%;
+}

@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ich sehe was, was du nicht siehst</title>
+    <meta name="description" content="Ich sehe was, was du nicht siehst | HFBK Hamburg | Coding Workshop | Mai 2023" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/nfv7azm.css">
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/customization.css" />
+  </head>
+  <body>
+    <!-- TITLE -->
+    <details id="title">
+      <summary>
+        <!-- <h1>Ich sehe was, was du nicht siehst&nbsp;<em>*</em></h1> -->
+        <h1><em>Ich sehe was, was du nicht siehst</em>&nbsp;<span>*</span></h1>
+      </summary>
+      <div class="layout columns-2">
+        <small class="column column--right">
+          <em>
+            “Ich sehe was, was du nicht siehst” (eng.: “I spy with my little eye” or literally translated “I see what you don't see”) is a guessing game where one player chooses an object within sight and announces to the other players that “I spy with my little eye something beginning with...“, naming the first letter, the color or a different attribute of the object. Other players attempt to guess this object.
+          </em>
+        </small>
+        </div>
+    </details>
+    <!-- SUBTITLE -->
+    <div class="layout columns-2">
+      <div class="column">
+        <h2>The Personalized Web</h2>
+        <small>Coding Workshop, HFBK Hamburg, Mai 2023</small>
+      </div>
+    </div>
+    <!-- CUSTOMIZATION -->
+    <div class="customization--options">
+        <p>
+          <em>
+              Personalize this workshop:
+          </em>
+        </p>
+        <div class="layout columns-4">
+          <fieldset id="customization--skills" class="customization column">
+            <div>
+              I know basic: 
+            </div>
+            <div>
+              <input type="checkbox" name="html" id="html"> <label for="html">HTML</label>
+            </div>
+            <div>
+              <input type="checkbox" name="css" id="css"> <label for="css">CSS</label>
+            </div>
+            <div>
+              <input type="checkbox" name="js" id="js"> <label for="js">JavaScript</label>
+            </div>
+          </fieldset>
+          <fieldset id="customization--color" class="customization column">
+            <div>
+              Color:
+            </div>
+            <div>
+              <input type="radio" name="color" value="tomato" id="red"> <label for="red">Red</label>
+            </div>
+            <div>
+              <input type="radio" name="color" value="limegreen" id="green" checked> <label for="green">Green</label>
+            </div>
+            <div>
+              <input type="radio" name="color" value="#0000FF" id="blue"> <label for="blue">Blue</label>
+            </div>
+          </fieldset>
+          <fieldset id="customization--font" class="customization font column">
+            <div>
+              Font:
+            </div>
+            <div>
+              <input type="radio" name="font" value="sans-serif" id="sans" checked> <label for="sans">Sans</label>
+            </div>
+            <div>
+              <input type="radio" name="font" value="serif" id="serif"> <label for="serif">Serif</label>
+            </div>
+            <div>
+              <input type="radio" name="font" value="monospace" id="mono"> <label for="mono">Mono</label>
+            </div>
+          </fieldset>
+          <fieldset id="customization--borders" class="customization border column">
+            <div>
+              Border:
+            </div>
+            <div>
+              <input type="checkbox" name="borders" id="borders"> <label for="borders">Show Borders</label>
+            </div>
+          </fieldset>
+      </div>
+    </div>
+
+    <main>
+      <!-- ABOUT -->
+      <details class="subheading">
+        <summary>About</summary>
+        <div class="layout columns-2">
+          <div class="column column--right">
+            <p class="text text--small">
+              We can visit the same website but see different things. Through personalization, individualization and customization your web-experience becomes as unique as your fingerprint. Websites constantly change their shape depending on the user: The layout transforms responsively when you open it on the phone, personal preferences are manifested in the light or dark mode, location-tracking and as user profiling tailors our feeds as well as the ads in it.
+            </p>
+            <p class="text text--small">
+              Filter bubbles, opaque feed algorithms and privacy concerns are one aspect of personalization on the Internet. Furthermore, what does personalization mean from a design and development point of view? What challenges does the responsive nature of the web pose for its design? How can the user’s influence on a website be made visible? Customization or personalization—what agency do we give the user?
+            </p>
+            <p class="text text--small">
+              We want to explore how we can design and develop websites that adapt to the user. What data can you collect from users to make a website more personal—and should you? Interactive user experiences allow for personal styles, conditional availabilities and different levels of authorship. The user can rewrite the narration depending on the links they click. Design variables can be made dependent on the user’s data, whether it is the mouse position or the time of day. We can even delegated our design decisions through customization options.
+            </p>
+            <p class="text text--small">
+              The workshop consists of an introduction to the basics of HTML, CSS and JS, includes inputs, coding sessions and consultations. The task is to design and code small web experiments individually or in groups that look differently to the one user than to the other. The websites will be published at the end of the week. No coding skills are required. Students without prior programming experience are especially encouraged to attend and there will be different entry points for different experience levels.
+            </p>
+            <small>
+              <em>
+                This workshop is a variation of the digital editorial course <a href="https://the-internet-of-me.katharinanejdl.com/" target="_blank">The Internet of Me</a> at Burg Halle WS 22/23.
+              </em>
+            </small>
+          </div>
+        </div>
+      </details>
+      <!-- ASSIGNMENT -->
+      <details class="subheading">
+        <summary>Assignment</summary>
+        <div class="layout columns-2">
+          <p class="text text--small column">
+            Workshop: 22.–26.05. | 10–18:00<br>
+            Deadline / Upload: Friday, 26.05. 10:00<br>
+            Presentation & Brunch: Friday, 26.05. 11:00–13:00
+          </p>
+          <p class="text column">
+            Create a website that looks different to me than it does to you.
+          </p>
+        </div>
+      </details>
+      <!-- START -->
+      <details class="subheading">
+        <summary>Where to start</summary>
+        <div class="layout columns-2">
+          <p class="text column">
+            Depending on your experience and preference, there are different points to start from:
+          </p>
+          <div class="text text--small column">
+            <ol>
+              <li>
+                <b>HTML Boilerplate</b><br>
+                <i>if you want to start an entry from scratch, start with this empty HTML / CSS / JS files</i><br>
+                <a href="https://github.com/nejdl/html-boilerplate" target="_blank">[Github: HTML Boilerplate]</a><br>
+                <a href="https://codesandbox.io/s/00-html-boilerplate-ci7m5k" target="_blank">[Codesandbox: HTML Boilerplate]</a>
+              </li>
+              <br>
+              <li>
+                <b>Starter Kits</b><br>
+                <i>if you want to start from modifying existing code, choose one of the coding starter kits</i><br>
+                <a href="https://github.com/nejdl/the-internet-of-me_starters" target="_blank">[Github: All Starter Kits]</a><br>
+                <a href="https://codesandbox.io/s/01-individual-paths-fhepe7" target="_blank">[Codesandbox: 01. Individual Paths / HTML]</a><br>
+                <a href="https://codesandbox.io/s/02-themes-0zldn6" target="_blank">[Codesandbox: 02. Themes & Custom Styling / CSS]</a><br>
+                <a href="https://codesandbox.io/s/03-responsive-design-6c9lmj" target="_blank">[Codesandbox: 03. Responsive Design / CSS]</a><br>
+                <a href="https://codesandbox.io/s/04-clickability-cue-tgit0v" target="_blank">[Codesandbox: 04. Clickability Cue / JS]</a><br>
+                <a href="https://codesandbox.io/s/05-agency-wz6x33" target="_blank">[Codesandbox: 05. Agency / JS]</a><br>
+                <a href="https://codesandbox.io/s/06-personalization-h0tq2n" target="_blank">[Codesandbox: 06. Personalization / JS]</a><br>
+              </li>
+          </ol>
+        </div>
+        </div>
+
+      </details>
+      <!-- CONTACT -->
+      <details class="subheading">
+        <summary>Contact</summary>
+        <div class="layout columns-2">
+          <div class="text text--small column column--right">
+            <ol>
+              <li>
+                <b>Chat</b><br>
+                <i>Here you can chat and ask questions.</i><br>
+                <a href="https://t.me/+3fTyPTxqIThhYmQ6" target="_blank">Telegram-Chat</a>
+              </li>
+              <li>
+                <b>Dropbox</b><br>
+                <i>this is where we share files / you can find the library and the starter kits here</i><br>
+                <a href="https://www.dropbox.com/scl/fo/5l0p7m89ewyo9txo4jc62/h?dl=0&rlkey=vcw5rhcmu20pom89yy8b89dq7" target="_blank">Dropbox</a>
+              </li>
+              <li>
+                <b>Library</b><br>
+                <i>a collection of research material</i><br>
+                <a href="https://www.dropbox.com/scl/fo/8ab5xhxvgo5970jm8c4kb/h?dl=0&rlkey=tt8aprtthppu5nv52xim9ekn8" target="_blank">Dropbox / Library</a>
+              </li>
+              <li>
+                <b>Sign-Up for Coding Support / Consultations</b><br>
+                <i>consultations in case you need support with a coding problem or want to talk about your concept a bit longer</i><br>
+                <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">GoogleDoc</a>
+              </li>
+              <li>
+                <b>Contact</b><br>
+                <i>Katharina Nejdl</i><br>
+                <a href="mailto:katharina.nejdl@googlemail.com?subject=👾">katharina.nejdl@googlemail.com</a><br>
+                0176 4342 8313<br>
+              </li>
+            </ol>
+          </div>
+      </details>
+
+      <!-- SCHEDULE -->
+      <div class="schedule">
+        <!-- MONDAY -->
+        <details open class="subheading">
+          <summary>Monday</summary>
+          <div class="layout columns-2">
+            <div class="text text--small column">
+              <em><i>Schedule subject to change, depending on group vibe. We can also agree on shorter days or cut some inputs. Let’s discuss!</i></em>
+            </div>
+            <div class="column">
+              <!-- MORNING -->
+              <div class="text text--schedule">
+                <div>
+                  10:00–11:30
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>10:00–11:00 | Intro</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Course-Info
+                        </li>
+                        <li>
+                          Topic-Info
+                        </li>
+                        <li>
+                          Getting to know each other (on paper / in the room)
+                          <br>
+                          Skill Buddies
+                        </li>
+                      </ul>
+                      <br>
+                      <details id="history">
+                        <summary>Personalization History</summary>
+                        <ul>
+                          <li>
+                            → The Filter Bubble by Eli Pariser - Introduction & Chapter 1
+                          </li>
+                          <li>
+                            <a href="https://www.eff.org/de/issues/do-not-track" target="_blank">
+                              [EFF: From Cookies to Device Fingerprinting]
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://en.wikipedia.org/wiki/Personalized_search#History" target="_blank">
+                              [History of Personalized Search]
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://gibsonbiddle.medium.com/a-brief-history-of-netflix-personalization-1f2debf010a1" target="_blank">
+                              [A Brief History of Netflix Personalization]
+                            </a>
+                          </li>
+                          <!-- <li>
+                            <a href="https://thereader.mitpress.mit.edu/a-history-of-the-data-tracked-user/" target="_blank">
+                              [A History of the Data-Tracked User]
+                            </a>
+                          </li> -->
+                          <li>
+                            <a href="https://www.digitalsearchgroup.co.uk/seo-blog/the-history-and-evolution-of-marketing/" target="_blank">
+                              [The History and Evolution of Marketing]
+                            </a>
+                          </li>
+                      </details>      
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>11:00–11:30 | Setup</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Chat
+                          <a href="https://t.me/+3fTyPTxqIThhYmQ6" target="_blank">
+                            [Telegram]
+                          </a>
+                        </li>
+                        <li>
+                          Boilerplates / Starterkits
+                          <a href="https://www.dropbox.com/scl/fo/5l0p7m89ewyo9txo4jc62/h?dl=0&rlkey=vcw5rhcmu20pom89yy8b89dq7" target="_blank">
+                            [Dropbox]
+                          </a>
+                        </li>
+                        <li>
+                          Codesandbox
+                          <a href="https://codesandbox.io/s/00-html-boilerplate-ci7m5k" target="_blank">
+                            [HTML Boilerplate]
+                          </a>
+                        </li>
+                        <li>
+                          Visual Studio Code
+                          <a href="https://code.visualstudio.com/download" target="_blank">
+                            [Download]
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- AFTERNOON -->
+              <div class="text text--schedule">
+                <div>
+                  12:30–15:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>12:30–12:45 | Input “Individual Paths”</summary>
+                    <div class="slot--content">
+                      <details>
+                        <summary>Starterkit</summary>
+                        <dl>
+                          <a target="_blank">
+                            <a href="https://codesandbox.io/s/01-individual-paths-fhepe7" target="_blank">[Codesandbox: 01. Individual Paths / HTML]</a>
+                          </a>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- showcases -->
+                      <details>
+                        <summary>Showcases</summary>
+                        <dl>
+                          <dd><a href="https://crowscrowscrows.itch.io/the-temple-of-no" target="_blank">Hypertext Fiction: The Temple of No</a></dd>
+                          <dd><a href="http://sebastianlyserena.dk/" target="_blank">Sebastian Ly Serena</a></dd>
+                          <dd><a href="https://mitchellbarton.com/" target="_blank">Mitchell Barton</a></dd>
+                          <dd><a href="https://allmyfriendsatonce.com/" target="_blank">When all of my friends are on at once</a></dd>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- reading -->
+                      <details>
+                        <summary>Reading List</summary>
+                        <dl>
+                          <dd>Podcast: <a href="https://html.energy/home.html" target="_blank">HTML energy</a></dd>
+                          <dd><a href="https://www.luckysoap.com/statements/handmadeweb.html" target="_blank">A Handmade Web</a> – J.R. Carpenter</dd>
+                          <dd><a href="https://rhizome.org/editorial/2020/jan/06/laurel-schwulsts-decade-in-internet/" target="_blank">Laurel Schwulst’s Decade in Internet</a> – RHIZOME</dd>
+                        </dl>
+                      </details>
+                    </div>
+                  </details>
+                  <details class="slot html-basics">
+                    <summary>12:45–15:00 | Coding Basics: HTML</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          HTML Fundamentals
+                          <a href="https://www.codecademy.com/learn/learn-html-fundamentals" target="_blank">
+                            [Codeacademy]
+                          </a>
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot html-basics-alternative">
+                    <summary>12:45–15:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- EVENING -->
+              <div class="text text--schedule">
+                <div>
+                  15:30–18:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>15:30–15:45 | Input “Themes & Custom Styling”</summary>
+                    <div class="slot--content">
+                      <details>
+                        <summary>Starterkit</summary>
+                        <dl>
+                          <a target="_blank">
+                            <a href="https://codesandbox.io/s/02-themes-0zldn6" target="_blank">[Codesandbox: 02. Themes & Custom Styling / CSS]</a><br>
+                          </a>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- showcases -->
+                      <details>
+                        <summary>Showcases</summary>
+                        <dl>
+                          <dd><a href="http://www.almostcalm.com/" target="_blank">Rafaël Rozendaal: Almost Calm</a></dd>
+                          <dd><a href="https://oldsite.sallythurer.com" target="_blank">Sally Thurer</a></dd>
+                          <dd><a href="https://marcd.co/" target="_blank">MARCD</a></dd>
+                          <dd><a href="https://one.onpractices.com" target="_blank">On Practices / One</a></dd>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- reading -->
+                      <details>
+                        <summary>Reading List</summary>
+                        <dl>
+                          <dd>
+                            <p>
+                              “There’s a difference between choice and decision for. Choice is an option. Decision is a burden.”
+                            </p>
+                            <small>
+                              <a href="https://techpinions.com/snippet-design-is-the-difference-between-choice-and-decision/32765" 
+                              target="_blank">Difference Between Choice and Decision
+                              </a> – Techpinions
+                            </small>
+                          </dd>
+                          <dd>
+                            <p>
+                              “The upside of customization is that each user can get exactly what they want, because they are in control. The downside is that many users don’t know what they actually need and that most users are not interested in doing the work required to tweak the user interface to match their preferences.”
+                            </p>
+                            <small>
+                              <a href="https://www.nngroup.com/articles/customization-personalization" target="_blank">Customization vs. Personalization in the User Experience</a>
+                              <br>– NN Group
+                            </small>
+                          </dd>
+                          <br>
+                          <dd>
+                            <a href="https://www.nngroup.com/articles/dark-mode/" target="_blank">
+                              Dark Mode vs. Light Mode: Which Is Better?
+                            </a> – NN Group
+                          </dd>
+                          <dd>
+                            <a href="https://linear.app/blog/settings-are-not-a-design-failure" 
+                            target="_blank">
+                            Settings are not a design failure
+                            </a> – Linear
+                          </dd>
+                        </dl>
+                      </details>
+                    </div>
+                  </details>
+                  <details class="slot css-basics">
+                    <summary>15:45–17:30 | Coding Basics: CSS I</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          CSS Introduction 
+                          <a href="https://www.codecademy.com/learn/learn-css-introduction" target="_blank">
+                            [Codeacademy]
+                          </a>
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot css-basics-alternative">
+                    <summary>15:45–17:30 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>17:30–18:00 | Ending the Day</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Mood
+                        </li>
+                        <li>
+                          Favorite HTML / CSS elements
+                        </li>
+                        <li>
+                          A game of <em>“Ich sehe was, was du nicht siehst”</em>?
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+        <!-- TUESDAY -->
+        <details open class="subheading">
+          <summary>Tuesday</summary>
+          <div class="layout columns-2">
+            <!-- <div class="text text--small column">
+              <em><i>Schedule subject to change, depending on group vibe.</i></em>
+            </div> -->
+            <div class="column column--right">
+              <!-- MORNING -->
+              <div class="text text--schedule">
+                <div>
+                  10:00–12:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>10:00–10:30 | Intro</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Video
+                          <a href="https://www.youtube.com/watch?v=CkzbI1Tv_rQ&ab_channel=LaurelVideo" target="_blank">
+                            [Laurel Schwulst: Basics of HTML]
+                          </a>
+                        </li>
+                      </ul>
+                      <br>
+                      <details>
+                        <summary>Starterkit</summary>
+                        <dl>
+                          <a href="https://codesandbox.io/s/03-responsive-design-6c9lmj" target="_blank">
+                            [Codesandbox: 03. Responsive Design / CSS]  
+                          </a>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- showcases -->
+                      <details>
+                        <summary>Showcases</summary>
+                        <dl>
+                          <dd>
+                            <a href="https://essenmitsosse.de/pixel/?showcase=true&slide=4" target="_blank">
+                              “Pixel” – Responsive Illustrations
+                            </a>
+                          </dd>
+                          <dd>
+                            <a href="https://ralphtharayil.com/" target="_blank">
+                              Ralph Tharayils Website by ungroup
+                            </a>
+                          </dd>
+                          <dd>
+                            <a href="https://littlefragments.com/" target="_blank">
+                              Little Fragments
+                            </a>
+                          </dd>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- reading -->
+                      <details>
+                        <summary>Reading List</summary>
+                        <dl>
+                          <dd>
+                            <a href="https://waxy.org/2019/11/painting-with-pure-css/" target="_blank">
+                              Painting with Pure CSS
+                            </a> – on browser (un-)compatibility
+                          </dd>
+                          <br>
+                          <dd>
+                            <p>
+                              “In 2019, 53% of the total web traffic came from mobile users.”
+                            </p>
+                            <small>
+                              <a href="https://research.com/software/mobile-vs-desktop-usage" target="_blank">
+                                Mobile vs. Desktop Usage
+                              </a> – Research.com
+                            </small>
+                          </dd>
+                        </dl>
+                      </details>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>10:30–11:00 | Wireframing</summary>
+                    <div class="slot--content">
+                      <dl>
+                        <em>
+                          Draw a wireframe of a website, that looks different to me than it does to you. [5min for each round]
+                        </em>
+                      </dl>
+                      <br>
+                      <ol>
+                        <li>
+                          How does the website look to you / me?
+                        </li>
+                        <li>
+                          How does the website look on mobile / desktop?
+                        </li>
+                        <li>
+                          Does the website react to something? Is it generative, interactive, participatory?
+                        </li>
+                        <li>
+                          Under what circumstances is the website available / unavailable, accessible / unaccessible?
+                        </li>
+                      </ol>
+                      <br>
+                      <dl>
+                        <em>
+                          → One-Sentence-Concepts
+                        </em>
+                      </dl>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>11:30–12:00 | Setup</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Inspection
+                        </li>
+                        <li>
+                            VS Extensions
+                            <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">
+                              [Live-Server]
+                            </a>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- AFTERNOON -->
+              <div class="text text--schedule">
+                <div>
+                  13:00–15:00
+                </div>
+                <div class="text--small">
+                  <details class="slot css-basics">
+                    <summary>13:00–15:00 | Coding Basics: CSS II</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Responsive Design with CSS
+                          <a href="https://www.codecademy.com/learn/learn-responsive-design" target="_blank">
+                            [Codeacademy]
+                          </a>
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot css-basics-alternative">
+                    <summary>13:00–15:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- EVENING -->
+              <div class="text text--schedule">
+                <div>
+                  15:30–18:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>15:30–15:45 | Input “Individualization & Interaction”</summary>
+                    <div class="slot--content">
+                      <details>
+                        <summary>Starterkit</summary>
+                        <dl>
+                          <a href="https://codesandbox.io/s/04-clickability-cue-tgit0v" target="_blank">[Codesandbox: 04. Clickability Cue / JS]</a>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- showcases -->
+                      <details>
+                        <summary>Showcases</summary>
+                        <dl>
+                          <dt>Individualization</dt>
+                          <dd><a href="	https://accessions.org/issue-2/" target="_blank">The Overview Effect</a> – aCCeSsions No.2</dd>
+                          <dd><a href="https://hallofestspiele.janareddemann.de/de/program" target="_blank">Hallo Festspiele 2017</a></dd>
+                          <dd><a href="https://timesnewarial.liebermannkiepereddemann.de/" target="_blank">Times New Arial</a></dd>
+                          <dd><a href="https://wirklichweiterkommen.de/re-flect" target="_blank">Re-Flect</a> Studiengangwahl-Tester mit individuell generiertem Avatar</dd>
+                          <br>
+                          <dt>Interaction</dt>
+                          <dd><a href="https://parsons.github.io/pedagogy-and-computation/" target="_blank">Pedagogy and Computation</a> – Parsons Symposium</dd>
+                          <dd><a href="https://www.namhuynh.de/level/easy/" target="_blank">Nam Huynh</a></dd>
+                          <dd><a href="https://taliacotton.com/" target="_blank">Talia Cotton</a></dd>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- reading -->
+                      <details>
+                        <summary>Reading List</summary>
+                        <dl>
+                          <dd><a href="https://exclusive-design.vasilis.nl/" target="_blank">Exclusive Design</a> – Vasilis van Gemert</dd>
+                          <dd><a href="https://creativetech.mat.ucsb.edu/readings/promise_of_empathy.pdf" target="_blank">The Promise of Empathy</a> – Design, Disability, and Knowing the “Other”</dd>
+                          <dd><a href="https://material.io/design/interaction/states.html" target="_blank">Interaction States</a> – Material Design</dd>
+                        </dl>
+                      </details>
+                    </div>
+                  </details>
+                  <details class="slot js-basics">
+                    <summary>15:45–17:30 | Coding Basics: JS I</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          JS Fundamentals 
+                          <a href="https://www.codecademy.com/learn/learn-javascript-fundamentals" target="_blank">
+                            [Codeacademy]
+                          </a>
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot js-basics-alternative">
+                    <summary>15:45–17:30 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>17:30–18:00 | Ending the Day</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Mood
+                        </li>
+                        <li>
+                          Show & Tell
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+        <!-- WEDNESDAY -->
+        <details open class="subheading">
+          <summary>Wednesday</summary>
+          <div class="layout columns-2">
+            <!-- <div class="text text--small column">
+              <em><i>Schedule subject to change, depending on group vibe.</i></em>
+            </div> -->
+            <div class="column column--right">
+              <!-- MORNING -->
+              <div class="text text--schedule">
+                <div>
+                  10:00–12:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>10:00–10:30 | Intro</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Video
+                          <a href="https://www.youtube.com/watch?v=20SHvU2PKsM" target="_blank">
+                            [Dark Patterns]
+                          </a>
+                        </li>
+                      </ul>
+                      <br>
+                      <details>
+                        <summary>Starterkits</summary>
+                        <dl>
+                          <a href="https://codesandbox.io/s/05-agency-wz6x33" target="_blank">[Codesandbox: 05. Agency / JS]</a>
+                          <br>
+                          <a href="https://codesandbox.io/s/06-personalization-h0tq2n" target="_blank">[Codesandbox: 06. Personalization / JS]</a>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- showcases -->
+                      <details>
+                        <summary>Showcases</summary>
+                        <dl>
+                          <br>
+                          Customization & Agency
+                          <dd><a href="https://theusercondition.computer/" target="_blank">The User Condition</a> – Silvio Lorusso</dd>
+                          <dd><a href="https://office.org.au" target="_blank">Office</a></dd>
+                          <dd><a href="https://two.onpractices.com" target="_blank">On Practices / Two</a></dd>
+                          <dd><a href="https://kunsthalle.osnabrueck.de/de" target="_blank">Kunsthalle Osnabrück</a></dd>    
+                          <br>
+                          Personalization & User Data
+                          <dd><a href="https://clickclickclick.click/" target="_blank">Click click click</a></dd>
+                          <dd><a href="https://thedisconnect.co/two/your-digital-fingerprint" target="_blank">Your Digital Fingerprint</a> – The Disconnect</dd>
+                          <dd><a href="https://vol1.temporaryliveness.org/" target="_blank">The School for Temporary Liveness</a></dd>
+                        </dl>
+                        <br>
+                      </details>
+                      <!-- reading -->
+                      <details>
+                        <summary>Reading List</summary>
+                        <dl>
+                          <br>
+                          Customization & Agency
+                          <dd><a href="https://theusercondition.computer/" target="_blank">The User Condition</a> – Silvio Lorusso</dd>
+                          <dd><a href="https://www.smashingmagazine.com/2016/09/reducing-cognitive-overload-for-a-better-user-experience" target="_blank">Reducing Cognitive Overload</a> – Smashing Magazine</dd>
+                          <dd>
+                            <p>
+                              “The upside of customization is that each user can get exactly what they want, because they are in control. The downside is that many users don’t know what they actually need and that most users are not interested in doing the work required to tweak the user interface to match their preferences.”
+                            </p>
+                            <small>
+                              <a href="https://www.nngroup.com/articles/customization-personalization" target="_blank">Customization vs. Personalization in the User Experience</a>
+                              <br>– NN Group
+                            </small>
+                          </dd>
+                          <br>
+                          Personalization & User Data
+                          <dd>
+                            <a href="https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles" target="_blank">
+                              TED: Beware online “filter bubbles”—Eli Pariser
+                            </a>
+                          </dd>
+                          <dd>
+                            <a href="https://donottrack-doc.com/de/intro/" target="_blank">
+                              Web-Serie: Do Not Track
+                            </a>
+                          </dd>
+                          <dd>
+                            <a href="https://thedisconnect.co/two/your-digital-fingerprint" target="_blank">
+                              The Disconnect: Your Digital Fingerprint
+                            </a>
+                          </dd>
+                        </dl>
+                      </details>
+                    </div>
+                  </details>
+                  <details class="slot js-basics">
+                    <summary>10:30–12:00 | Coding Basics: JS II</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Continue with JS Fundamentals 
+                          <a href="https://www.codecademy.com/learn/learn-javascript-fundamentals" target="_blank">
+                            [Codeacademy]
+                          </a>
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot js-basics-alternative">
+                    <summary>10:30–12:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- AFTERNOON -->
+              <div class="text text--schedule">
+                <div>
+                  13:00–15:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>13:00–13:15 | Privacy Settings</summary>
+                    <div class="slot--content">
+                      <dl>
+                        <dt>Private Search</dt>
+                        <dd><a href="https://duckduckgo.com" target="_blank">DuckDuckGo</a></dd>
+                        <br>
+                        <dt>Anti-Tracking Add-On</dt>
+                        <dd><a href="https://www.eff.org/de/pages/privacy-badger" target="_blank">EFF Privacy Badger</a></dd>
+                        <dd><a href="https://duckduckgo.com/app" target="_blank">DuckDuckGo Extension & Mobile App</a></dd>
+                        <br>
+                        <dt>Firefox Browser</dt>
+                        <dd><a href="https://support.mozilla.org/en-US/products/firefox/protect-your-privacy" target="_blank">Download</a></dd>
+                        <dd><a href="https://www.youtube.com/watch?v=NH4DdXC0RFw" target="_blank">Settings</a></dd>
+                        <br>
+                        <dt>More Tips</dt>
+                        <dd><a href="https://www.privacyguides.org/tools/" target="_blank">Privacy Guides: Tools</a></dd>
+                        <dd><a href="https://www.digitalinformationworld.com/2021/08/internet-tracking-how-and-why-were-followed-online-infographic.html" target="_blank">Digital Information World: Internet Tracking How & Why</a></dd>
+                        <dd><a href="https://www.nytimes.com/2019/10/04/smarter-living/10-tips-internet-privacy-crowdwise.html" target="_blank">NY Times: 10 Tips for Internet Privacy</a></dd>
+                        <dd><a href="https://privacyinternational.org/act/protect-yourself-online-tracking" target="_blank">Privacy International: Protect Yourself Online</a></dd>
+                      </dl>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>13:15–15:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- EVENING -->
+              <div class="text text--schedule">
+                <div>
+                  15:30–18:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>15:30–17:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>17:00–18:00 | Ending the Day</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Mood
+                        </li>
+                        <li>
+                          Show & Tell
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+        <!-- THURSDAY -->
+        <details open class="subheading">
+          <summary>Thursday</summary>
+          <div class="layout columns-2">
+            <!-- <div class="text text--small column">
+              <em><i>Schedule subject to change, depending on group vibe.</i></em>
+            </div> -->
+            <div class="column column--right">
+              <!-- MORNING -->
+              <div class="text text--schedule">
+                <div>
+                  10:00–12:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>10:00–10:05 | Intro</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Video
+                          <a href="https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles" target="_blank">
+                            [TED: Beware online “filter bubbles”—Eli Pariser]
+                          </a>
+                        </li>
+                      </ul>
+                      <!-- <br>
+                      <details>
+                        <summary>Starterkits</summary>
+                        <dl>
+                          <a href="https://codesandbox.io/s/06-personalization-h0tq2n" target="_blank">[Codesandbox: 06. Personalization / JS]</a>
+                        </dl>
+                        <br>
+                      </details> -->
+                      <!-- showcases -->
+                      <!-- <details>
+                        <summary>Showcases</summary>
+                        <dl>
+                          <dd><a href="https://clickclickclick.click/" target="_blank">Click click click</a></dd>
+                          <dd><a href="https://thedisconnect.co/two/your-digital-fingerprint" target="_blank">Your Digital Fingerprint</a> – The Disconnect</dd>
+                          <dd><a href="https://vol1.temporaryliveness.org/" target="_blank">The School for Temporary Liveness</a></dd>
+                        </dl>
+                        <br>
+                      </details> -->
+                      <!-- reading -->
+                      <!-- <details>
+                        <summary>Reading List</summary>
+                        <dl>
+                          <dd>
+                            <a href="https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles" target="_blank">
+                              TED: Beware online “filter bubbles”—Eli Pariser
+                            </a>
+                          </dd>
+                          <dd>
+                            <a href="https://donottrack-doc.com/de/intro/" target="_blank">
+                              Web-Serie: Do Not Track
+                            </a>
+                          </dd>
+                          <dd>
+                            <a href="https://thedisconnect.co/two/your-digital-fingerprint" target="_blank">
+                              The Disconnect: Your Digital Fingerprint
+                            </a>
+                          </dd>
+                        </dl>
+                      </details> -->
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>10:05–12:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- AFTERNOON -->
+              <div class="text text--schedule">
+                <div>
+                  13:00–15:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>13:00–15:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+              <!-- EVENING -->
+              <div class="text text--schedule">
+                <div>
+                  15:30–18:00
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>15:30–17:00 | Collective Coding</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Individual Project
+                        </li>
+                        <li>
+                          Coding Support / Consultations
+                          <a href="https://docs.google.com/document/d/1BUEsBKcHKAsXcVFzFT4FOxBKu_vs6CWnTAXs4747Md0/edit?usp=sharing" target="_blank">[Sign Up]</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>17:00–18:00 | Ending the Day</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Mood
+                        </li>
+                        <li>
+                          Show & Tell
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+        <!-- FRIDAY -->
+        <details open class="subheading">
+          <summary>Friday</summary>
+          <div class="layout columns-2">
+            <div class="text text--small column">
+              <em><i>All web experiments / projects should be uploaded by Friday 10:00.</i></em>
+            </div>
+            <div class="column">
+              <!-- MORNING -->
+              <div class="text text--schedule">
+                <div>
+                  10:00–13:30
+                </div>
+                <div class="text--small">
+                  <details class="slot">
+                    <summary>10:00–10:30 | Upload</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Video
+                          <a href="https://www.youtube.com/watch?v=20SHvU2PKsM" target="_blank">
+                            [Web Accessibility]
+                          </a>
+                        </li>
+                        <li>
+                          Upload Deadline
+                          <a href="https://www.dropbox.com/scl/fo/cuq567r84nws3fugaoekl/h?dl=0&rlkey=jxhk6775uspbttwt6rn14vmwl" target="_blank">
+                            [Dropbox / Upload]
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>10:30–11:00 | Brunch Preparations</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Brunch Preparations
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>11:00–13:00 | Presentation & Brunch</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Presentation
+                        </li>
+                        <li>
+                          Brunch
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                  <details class="slot">
+                    <summary>13:00–13:30 | End of Workshop</summary>
+                    <div class="slot--content">
+                      <ul>
+                        <li>
+                          Mood
+                        </li>
+                        <li>
+                          Feedback
+                        </li>
+                      </ul>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+      </div>
+
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="./js/customization.js"></script>
+</html>

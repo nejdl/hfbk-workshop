@@ -1,0 +1,6 @@
+/* FONTS */
+@font-face {
+  font-family: 'AntiqueOliveStd-Nord';
+  src: url('../assets/fonts/AntiqueOliveStd-Nord.otf') format('opentype');
+  font-weight: normal;
+}

@@ -1,0 +1,27 @@
+/* VARIABLES */
+:root {
+  /* color */
+  --highlightColor: limegreen;
+
+  /* font */
+  --fontFamily: sans-serif;
+
+  /* border */
+  --borderWidth: 0px;
+}
+
+/* RESPONSIVE FONT-SIZE */
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 30px;
+  }
+}

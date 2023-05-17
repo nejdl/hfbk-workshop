@@ -1,0 +1,18 @@
+.js-basics-hidden .js-basics,
+.css-basics-hidden .css-basics,
+.html-basics-hidden .html-basics,
+.js-basics-alternative,
+.css-basics-alternative,
+.html-basics-alternative {
+  opacity: 0.25;
+  /* display: none; */
+}
+
+.js-basics-hidden .js-basics-alternative,
+.css-basics-hidden .css-basics-alternative,
+.html-basics-hidden .html-basics-alternative,
+.js-basics,
+.css-basics,
+.html-basics {
+  opacity: 1;
+}
