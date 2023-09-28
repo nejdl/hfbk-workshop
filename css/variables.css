@@ -1,7 +1,8 @@
 /* VARIABLES */
 :root {
   /* color */
-  --highlightColor: limegreen;
+  /* --highlightColor: limegreen; */
+  --highlightColor: #0000ff;
 
   /* font */
   --fontFamily: sans-serif;

@@ -58,7 +58,7 @@ const customizationColor = document.getElementById('customization--color');
 const colorInputs = customizationColor.getElementsByTagName('input');
 
 // get saved color settings from local storage
-let savedColor = 'limegreen';
+let savedColor = '#0000FF';
 const colorFromLocalStorageUnparsed = localStorage.getItem('color');
 const colorFromLocalStorage = JSON.parse(colorFromLocalStorageUnparsed);
 
